@@ -9,8 +9,11 @@ O **JD System** é uma ferramenta de busca e navegação por pastas baseada no s
 ## Configuração
 
 1. **Clone o Repositório:**
-   git clone https://github.com/seu-usuario/jd-system.git
-   cd jd-system
+
+```
+git clone https://github.com/seu-usuario/jd-system.git
+cd jd-system
+```
 
 2. **Configuração do Ambiente:**
 
@@ -36,12 +39,14 @@ O **JD System** é uma ferramenta de busca e navegação por pastas baseada no s
 
 1. **Instalação das Dependências:**
 
-   `pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 2. **Configuração do Arquivo `config.yaml`:**
 
 - Edite o arquivo `config.yaml` no diretório do projeto com as informações necessárias:
-  
+
   ```yaml
   path: "Caminho/para/suas/pastas"
   vscode_path: "Caminho/para/seu/code.exe"
@@ -50,11 +55,13 @@ O **JD System** é uma ferramenta de busca e navegação por pastas baseada no s
 ## Uso
 
 - **Pesquisar e Abrir uma Pasta:**
-  
-  `python jd_system.py <termo_de_pesquisa>`
+
+  ```
+    python jd_system.py <termo_de_pesquisa>
+  ```
 
 - Para abrir com o VSCode:
-  
+
   ```
   python jd_system.py <termo_de_pesquisa> -o code
   ```
