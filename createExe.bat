@@ -1,0 +1,1 @@
+pyinstaller.exe --onefile --add-data "dev.yaml;." --add-data "config.yaml;." .\cde.py
